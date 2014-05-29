@@ -31,7 +31,7 @@ void setup()
   
 // sound and minim setup parameters
   minim = new Minim(this);
-  mp3 = minim.loadFile("mashUp.mp3",2048);
+  mp3 = minim.loadFile("mashUp.mp3",2048);// load your mp3 file here make sure you use processing's built in add file feature and type the name of the loaded mp3 inside the quotation marks
   out = minim.getLineOut(Minim.STEREO,44100);
   fft = new FFT(mp3.bufferSize(),mp3.sampleRate());//allows for the decription of the sound waves 
   rectMode(CORNERS);
