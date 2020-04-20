@@ -1,3 +1,5 @@
+//by: Joshua Hollenbeck
+//Works with Processing 3 - Test Change
 import ddf.minim.*;
 import ddf.minim.signals.*; 
 import ddf.minim.analysis.*;
@@ -101,5 +103,3 @@ void close()
   minim.stop();
   super.stop();
 }
-
-
